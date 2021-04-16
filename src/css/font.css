@@ -1,0 +1,9 @@
+@font-face {
+	font-family: MuseoSans;
+	src: url('../fonts/MuseoSansCyrl-300.ttf') ('truetype');
+	src: url('../fonts/MuseoSansCyrl-300Italic.ttf') ('truetype');
+	src: url('../fonts/MuseoSansCyrl-500.ttf') ('truetype');
+	src: url('../fonts/MuseoSansCyrl-500Italic.ttf') ('truetype');
+	src: url('../fonts/MuseoSansCyrl-700.ttf') ('truetype');
+	src: url('../fonts/MuseoSansCyrl-700Italic.ttf') ('truetype');
+}
