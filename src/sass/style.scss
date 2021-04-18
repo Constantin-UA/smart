@@ -3,6 +3,7 @@
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
+@import 'blocks/title';
 
 * {
 	font-family: 'MuseonSans', sans-serif;
@@ -12,11 +13,6 @@
 	max-width: 950px;
 	margin: 0 auto;
 }
-.title {
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 30px;
-	text-align: center;
-	color: #0d0d0d;
-}
+@import 'blocks/consultation';
+@import 'blocks/forms';
 @import 'base/media';

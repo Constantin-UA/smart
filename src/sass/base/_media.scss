@@ -17,6 +17,12 @@
 			margin-top: 30px;
 		}
 	}
+	.consultation {
+		padding-left: 10px;
+	}
+	.title {
+		font-size: 30px;
+	}
 }
 @media (max-width: 625px) {
 	.header {
@@ -35,6 +41,14 @@
 			font-size: 20px;
 			line-height: 15px;
 		}
+	}
+	.consultation {
+		&__descr {
+			font-size: 18px;
+		}
+	}
+	.title {
+		line-height: 35px;
 	}
 }
 @media (max-width: 426px) {
@@ -114,12 +128,17 @@
 		}
 	}
 	.title {
-		font-size: 24px;
+		font-size: 20px;
 	}
 	.advantages {
 		padding: 50px 0 50px 0;
 		&__item {
 			margin-top: 20px;
+		}
+	}
+	.consultation {
+		&__descr {
+			font-size: 14px;
 		}
 	}
 }
