@@ -2,28 +2,11 @@
 	padding: 81px 0;
 	&__inner {
 		position: relative;
-		max-width: 750px;
+		min-width: 750px;
 		margin: 0 auto;
-		.slick-dots {
-			list-style-type: none;
-			display: flex;
-			justify-content: center;
-			margin-top: 5px;
-			li {
-				margin: 0 5px;
-			}
-			button {
-				border: none;
-				border-radius: 100%;
-				background-color: $main-color;
-				color: #fff;
-				width: 30px;
-				height: 30px;
-			}
-		}
 	}
-	.slick-prev,
-	.slick-next {
+	.prev,
+	.next {
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
@@ -35,8 +18,14 @@
 			height: 50px;
 		}
 	}
-	.slick-next {
+	.next {
 		left: auto;
 		right: -66px;
+	}
+	.tns-item {
+		img {
+			display: block;
+			margin: 0 auto;
+		}
 	}
 }
