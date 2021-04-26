@@ -49,6 +49,9 @@
 			font-size: 20px;
 			line-height: 15px;
 		}
+		&__icon {
+			font-size: 13px;
+		}
 	}
 	.consultation {
 		&__descr {
@@ -57,6 +60,28 @@
 	}
 	.title {
 		line-height: 35px;
+	}
+	.catalog {
+		&__tabs {
+			flex-direction: column;
+		}
+		&__tab {
+			margin-top: 5px;
+		}
+	}
+	.comments {
+		&__comment {
+			margin-top: 30px;
+			flex-direction: column;
+			align-items: center;
+		}
+		&__photo {
+			margin: 0 auto;
+		}
+		&__author,
+		&__subtitle {
+			text-align: center;
+		}
 	}
 }
 @media (max-width: 426px) {
@@ -121,7 +146,7 @@
 		}
 		&__icon {
 			width: 100px;
-			font-size: 12px;
+			font-size: 13px;
 		}
 		&__link {
 			font-size: 12px;

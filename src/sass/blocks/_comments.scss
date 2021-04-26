@@ -1,0 +1,26 @@
+.comments {
+	min-height: 920px;
+	&__comment {
+		margin-top: 60px;
+		display: flex;
+	}
+	&__photo {
+		margin-right: 60px;
+	}
+	&__descr {
+		font-weight: 300;
+		font-size: 16px;
+		color: #0d0d0d;
+	}
+	&__author {
+		font-weight: 700;
+		font-size: 18px;
+		color: #0d0d0d;
+	}
+	&__subtitle {
+		font-weight: 500;
+		font-size: 14px;
+		color: #646464;
+		margin-bottom: 20px;
+	}
+}
